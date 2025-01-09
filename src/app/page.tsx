@@ -7,7 +7,7 @@ export default function Home() {
       <main className={styles.main}>
         <Image
           className={styles.logo}
-          src="/icon.png"
+          src="/icon.svg"
           alt="logo"
           width={200}
           height={200}
