@@ -3,10 +3,12 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev --turbopack",
+    "dev": "next dev -p 2025 --turbopack",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "format": "prettier --write .",
+    "lint": "eslint --fix .",
+    "prepare": "husky"
   },
   "dependencies": {
     "react": "^19.0.0",
@@ -14,12 +16,21 @@
     "next": "15.1.4"
   },
   "devDependencies": {
-    "typescript": "^5",
+    "@commitlint/cli": "^19.6.1",
+    "@commitlint/config-angular": "^19.7.0",
+    "@commitlint/config-conventional": "^19.6.0",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
-    "eslint": "^9",
+    "eslint": "^9.17.0",
     "eslint-config-next": "15.1.4",
-    "@eslint/eslintrc": "^3"
-  }
+    "husky": "^9.1.7",
+    "lint-staged": "^15.3.0",
+    "prettier": "^3.4.2",
+    "typescript": "^5"
+  },
+  "engines": {
+    "node": "18.18.0"
+  },
+  "packageManager": "bun@1.1.42"
 }
