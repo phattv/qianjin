@@ -1,0 +1,4 @@
+{
+  "*.{js,jsx,ts,tsx}": ["make vet", "git add"],
+  "*.{json,md,css,scss}": ["make vet", "git add"]
+}
