@@ -20,6 +20,7 @@ export async function POST(req: Request) {
         { role: "system", content: systemPrompt },
         { role: "user", content: input },
       ],
+      response_format: { type: "json_object" },
     });
     if (!chatCompletion?.choices[0]?.message?.content) {
       return NextResponse.json({ error: "Failed to process your request." }, { status: 500 });
