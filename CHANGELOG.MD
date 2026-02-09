@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## 2025-01-11 - [#2](https://github.com/phattv/qianjin/pull/2)
+
+- feat(app): integrate openAI chat completion API
+
 ## 2025-01-09 - [#1](https://github.com/phattv/qianjin/pull/1)
 
 - chore(setup): configure make commands, git hooks, node, typescript, linter & formatter

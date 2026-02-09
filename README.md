@@ -22,6 +22,7 @@ make dev
 3. [ ] search 🔍
    - hanzi recognition
    - text input
+   - speech input
 4. [ ] quiz 🤔
    - database fields above
    - randomize, by radical, by class
@@ -46,6 +47,7 @@ make dev
 - https://dev.to/rayenmabrouk/best-tech-stack-for-startups-in-2025-5h2l
 - https://chatgpt.com/c/676ba9b9-154c-800d-b114-bc36bf690ba6
   - https://chatgpt.com/c/676b9f6a-b424-800d-921c-ce9d1cc570e9 (first version)
+  - - https://chatgpt.com/c/6781f666-485c-800d-98fa-f523d6f6a95d (openAI chat completion integration)
 - https://github.com/JWu-Git/react-hanzi-lookup
   - https://github.com/gugray/HanziLookupJS
     - https://github.com/skishore/makemeahanzi
